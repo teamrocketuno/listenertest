@@ -19,6 +19,7 @@ public class TestPlugin extends JavaPlugin
     {
         menu = new InventoryMenu();
         getServer().getPluginManager().registerEvents(hotbarListener, this);
+        getServer().getPluginManager().registerEvents(menu, this);
     }
 
     @Override

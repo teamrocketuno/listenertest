@@ -27,7 +27,7 @@ public class InventoryMenu implements InventoryHolder, Listener
         meta1.setDisplayName(item1Name);
         item1.setItemMeta(meta1);
 
-        ItemStack item2 = new ItemStack(Material.RED_STAINED_GLASS_PANE);
+        ItemStack item2 = new ItemStack(Material.BLACK_STAINED_GLASS_PANE);
         String item2Name = ChatColor.translateAlternateColorCodes('&', "&c&lW&e&lI&a&lL&b&lD");
         ItemMeta meta2 = item2.getItemMeta();
         meta2.setDisplayName(item2Name);
